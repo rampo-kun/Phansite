@@ -11,6 +11,7 @@ export const metadata = {
 const inter = Inter({ subsets: ["latin"] })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+    console.log('hello')
     return (
         <ClerkProvider publishableKey="pk_test_bGVuaWVudC1mYWxjb24tMjkuY2xlcmsuYWNjb3VudHMuZGV2JA">
             <html lang="en">
