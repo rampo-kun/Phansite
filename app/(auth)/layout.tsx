@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
-        <ClerkProvider publishableKey={process.env.NEXT_PUBLIC_FRONTEND_API}>
+        <ClerkProvider publishableKey="pk_test_bGVuaWVudC1mYWxjb24tMjkuY2xlcmsuYWNjb3VudHMuZGV2JA">
             <html lang="en">
                 <body className={`${inter.className} bg-dark-1`}>
                     <div className="w-full flex justify-center items-center min-h-screen">

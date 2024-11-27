@@ -24,10 +24,11 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider
+      publishableKey="pk_test_bGVuaWVudC1mYWxjb24tMjkuY2xlcmsuYWNjb3VudHMuZGV2JA"
       appearance={{
         baseTheme: dark,
       }}
-      publishableKey={process.env.NEXT_PUBLIC_FRONTEND_API}>
+    >
       <html lang='en'>
         <body className={inter.className}>
           <Topbar />
