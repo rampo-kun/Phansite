@@ -27,7 +27,7 @@ export default function RootLayout({
       appearance={{
         baseTheme: dark,
       }}
-    >
+      publishableKey={process.env.NEXT_PUBLIC_FRONTEND_API}>
       <html lang='en'>
         <body className={inter.className}>
           <Topbar />
